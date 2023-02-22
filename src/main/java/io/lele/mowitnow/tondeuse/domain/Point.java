@@ -7,8 +7,8 @@ import java.util.Objects;
 public class Point {
 
     private static final int FLOOR = 0;
-    int x;
-    int y;
+    private int x;
+    private int y;
 
     public Point(int x, int y){
         if(x <FLOOR)
