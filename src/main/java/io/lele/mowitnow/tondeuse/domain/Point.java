@@ -1,5 +1,6 @@
 package io.lele.mowitnow.tondeuse.domain;
 
+import io.lele.mowitnow.tondeuse.domain.exceptions.InvalidCoordinatesException;
 
 import java.util.Objects;
 
@@ -10,7 +11,12 @@ public class Point {
     int y;
 
     public Point(int x, int y){
-
+        if(x <FLOOR)
+            throw new InvalidCoordinatesException("x coordinate less than zero");
+        this.x = x;
+        if(y <FLOOR)
+            throw new InvalidCoordinatesException("y coordinate less than zero");
+        this.y = y;
     }
 
     public int getX() {
@@ -22,15 +28,23 @@ public class Point {
     }
 
     public void incrementXBy1(int ceiling ){
+        if(x + 1 <= ceiling)
+            ++x;
     }
 
     public void incrementYBy1(int ceiling ){
+        if(y + 1 <= ceiling)
+            ++y;
     }
 
     public void decrementXBy1(int floor ){
+        if(x - 1 >= floor)
+            --x;
     }
 
     public void decrementYBy1(int floor ){
+        if(y - 1 >= floor)
+            --y;
     }
 
     @Override

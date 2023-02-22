@@ -4,7 +4,6 @@ public class Mower {
     Point position;
     Orientation orientation;
 
-
     @Override
     public String toString() {
         return "" + position +
