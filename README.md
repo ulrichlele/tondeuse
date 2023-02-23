@@ -1,5 +1,5 @@
 
-# La tondeuse automatique
+# La Tondeuse Automatique
 
 Ce programme permet d'à l'aide d n fichier à l'entrée, programmer les instructions de déplacement des tondeuses sur une pelouse afin de tondre cette dernière de manière automatique.
 
