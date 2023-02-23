@@ -1,5 +1,7 @@
 package io.lele.mowitnow.tondeuse.domain;
-
+/**
+ * @author Ulrich LELE
+ */
 public class Lawn {
 
     Point topRightCorner;
@@ -7,10 +9,6 @@ public class Lawn {
     Point bottomLeftCorner = new Point(0,0);
 
     public Lawn(int x, int y){
-        this.topRightCorner = new Point(x, y);
-    }
-
-    public void reset(int x, int y){
         this.topRightCorner = new Point(x, y);
     }
 

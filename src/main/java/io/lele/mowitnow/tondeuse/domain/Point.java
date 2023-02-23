@@ -3,7 +3,9 @@ package io.lele.mowitnow.tondeuse.domain;
 import io.lele.mowitnow.tondeuse.domain.exceptions.InvalidCoordinatesException;
 
 import java.util.Objects;
-
+/**
+ * @author Ulrich LELE
+ */
 public class Point {
 
     private static final int FLOOR = 0;

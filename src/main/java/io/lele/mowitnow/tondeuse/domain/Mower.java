@@ -1,5 +1,10 @@
 package io.lele.mowitnow.tondeuse.domain;
 
+import io.lele.mowitnow.tondeuse.domain.enums.Direction;
+import io.lele.mowitnow.tondeuse.domain.enums.Orientation;
+/**
+ * @author Ulrich LELE
+ */
 public class Mower {
     Lawn lawn;
     Point position;

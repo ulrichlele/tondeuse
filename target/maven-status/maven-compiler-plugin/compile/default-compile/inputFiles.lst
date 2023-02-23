@@ -1,0 +1,16 @@
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\adapter\cli\App.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\Lawn.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\exceptions\InvalidInstructionException.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\command\LawnMowing.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\command\MowerInstruction.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\utils\StringHelper.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\Point.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\enums\Orientation.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\command\MowingCommand.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\enums\Direction.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\Mower.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\application\service\LawnMower.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\adapter\file\MowerFileReader.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\command\MovementType.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\application\port\in\LawnMowerUseCase.java
+D:\projects\kata\tondeuse\src\main\java\io\lele\mowitnow\tondeuse\domain\exceptions\InvalidCoordinatesException.java

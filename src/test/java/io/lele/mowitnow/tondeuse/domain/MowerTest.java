@@ -1,10 +1,14 @@
 package io.lele.mowitnow.tondeuse.domain;
 
+import io.lele.mowitnow.tondeuse.domain.enums.Direction;
+import io.lele.mowitnow.tondeuse.domain.enums.Orientation;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * @author Ulrich LELE
+ */
 class MowerTest {
 
     private static final int X_UPPER_LIMIT = 5;

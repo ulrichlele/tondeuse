@@ -1,9 +1,14 @@
 package io.lele.mowitnow.tondeuse.domain;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import io.lele.mowitnow.tondeuse.domain.enums.Direction;
+import io.lele.mowitnow.tondeuse.domain.enums.Orientation;
 import org.junit.jupiter.api.Test;
 
-
+/**
+ * @author Ulrich LELE
+ */
 class OrientationTest {
 
     @Test

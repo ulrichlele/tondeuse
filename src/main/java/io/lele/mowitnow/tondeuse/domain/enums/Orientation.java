@@ -1,5 +1,7 @@
-package io.lele.mowitnow.tondeuse.domain;
-
+package io.lele.mowitnow.tondeuse.domain.enums;
+/**
+ * @author Ulrich LELE
+ */
 public enum Orientation {
     N, E, S, W;
 

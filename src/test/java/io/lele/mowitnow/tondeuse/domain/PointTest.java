@@ -4,7 +4,9 @@ import io.lele.mowitnow.tondeuse.domain.exceptions.InvalidCoordinatesException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * @author Ulrich LELE
+ */
 class PointTest {
 
     private static final int X_UPPER_LIMIT = 5;
