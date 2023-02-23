@@ -37,12 +37,23 @@ Les lignes suivantes réprésentent le contenu du fichier et la signification en
 - E : East
 - S : South
 - W : West
- 
 
-## Exmplaire d'execution
-    java -jar .\target\tondeuse-1.0-SNAPSHOT.jar .\tondeuse.txt
+## Cloner, empaqueter et exécuter
+Dans les étapes suivantes, nous allons cloner, construire et exécuter l’application.
+**Prérequis**
+Java 1.8
+
+### Cloner
+    git clone git@github.com:ulrichlele/tondeuse.git
+
+### Empaqueter
+    cd tondeuse/
+    mvn package
+
+## Exécuter
+    java -jar target/tondeuse-1.0-SNAPSHOT.jar tondeuse.txt
  
-### Contenu du fichier
+### Contenu du fichier tondeuse.txt
  
   ```js
     5 5
