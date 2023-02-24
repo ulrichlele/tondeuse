@@ -8,7 +8,7 @@ Le programme s'execute en ligne de commande de la manière suivante:
  
     java -jar .\target\tondeuse-1.0-SNAPSHOT.jar .\tondeuse.txt
 
-- tondeuse-1.0-SNAPSHOT.jar : est le fichier d'instructions
+- tondeuse-1.0-SNAPSHOT.jar : est l'executable
 - tondeuse.txt : est le fichier d'instructions
 
 *Lorsqu'une tondeuse achève une série d'instructions, elle communique sa position
